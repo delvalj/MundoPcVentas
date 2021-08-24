@@ -19,7 +19,7 @@ public class Monitor {
     }
 
     public int getIdMonitor() {
-        return idMonitor;
+        return this.idMonitor;
     }
 
     public String getMarca() {
