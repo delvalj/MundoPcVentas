@@ -6,7 +6,7 @@ public class Raton extends DispositivosEntrada{
     private static int contadorRatones;
 
     // Constructor que heredo de la clase padre,  + Inicializo el Ratón
-    private Raton(String tipoEntrada, String marca) {
+    public Raton(String tipoEntrada, String marca) {
         super(tipoEntrada, marca);
         this.idRaton = ++Raton.contadorRatones;
     }

@@ -12,7 +12,7 @@ public class Monitor {
         this.idMonitor = ++Monitor.contadorMonitores;
     }
 
-    public Monitor(int idMonitor, String marca, double precio) {
+    public Monitor(String marca, double precio) {
         this();
         this.marca = marca;
         this.precio = precio;
